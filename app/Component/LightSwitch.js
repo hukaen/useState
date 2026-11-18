@@ -5,9 +5,9 @@ export const LightSwitch = () => {
   const [isOn, setIsOn] = useState(false);
   return (
     <div
-      className={`w-full h-fit p-5 flex flex-col gap-3 items-center bg-${isOn ? "sky-950" : "amber-200"} rounded-[20px]`}
+      className={`w-full h-fit p-5 flex flex-col gap-3 items-center ${isOn ? "bg-sky-950" : "bg-amber-200"} rounded-[20px]`}
     >
-      <h1 className={`text-${isOn ? "sky-white" : "black"}`}>💡 Гэрэл</h1>
+      <h1 className={`text-${isOn ? "white" : "black"}`}>💡 Гэрэл</h1>
       <h1 className="text-[60px]">{isOn ? "🌑" : "💡"}</h1>
       <div className="flex gap-10">
         <button

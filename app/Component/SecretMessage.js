@@ -18,7 +18,7 @@ export const SecretMessage = () => {
           {isVisible ? "Нуух" : "Харах"}
         </button>
       </div>
-      {isVisible && <h1>helloowww</h1>}
+      {isVisible && <h1>Нууц гээд байхаддаа</h1>}
     </div>
   );
 };
